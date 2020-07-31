@@ -1,0 +1,55 @@
+.film-list{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto ;
+    margin: /*20px auto 0*/ 0;
+    padding: 0 20px;
+    background: #171717;
+    justify-content: center;
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.film-list article{
+    background: #171717 /*fff*/ ;
+    border: 3px solid #ffc500;
+    border-radius: 5px;
+    max-width: 340px;
+    max-height: 180px;
+    padding: 20px;
+    margin-top: 40px;
+    align-items: center;
+    align-content: center;
+}
+
+.film-list article strong{
+    color: #fff;
+}
+
+.film-list article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.film-list article a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #ffc500;
+    background: none;
+    margin-top: 10px;
+    color: #ffc500;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.film-list article a:hover{
+    background: #ffc500;
+    color: #171717;
+}
